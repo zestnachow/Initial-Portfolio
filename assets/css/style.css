@@ -138,5 +138,6 @@ h2 {
     text-align: justify;
     line-height: 1.2;
     margin-right: 0;
+    color: var(--quaternary)
 }
 
