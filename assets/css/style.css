@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+:root {
+    --primary: #78a1bb;
+    --secondary: #bfa89e;
+    --tertiary: #8b786d;
+    --quaternary: #283044;
+    --text: #d0fadd;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+header {
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border-bottom: 2px solid var(--tertiary);
+}
+
+nav {
+    padding-top: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    text-align: right;
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: var(--text);
+    font-family: 'Dosis',
+    serif;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 2.5rem;
+}
+
+a:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 5px black;
+}
