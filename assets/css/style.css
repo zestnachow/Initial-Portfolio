@@ -116,11 +116,11 @@ h2 {
     margin-bottom: 30px;
 }
 
-#small-projects figure {
+.small-project-figures {
     display: flex;
 }
 
-#small-projects img {
+.small-images {
     justify-content: space-evenly;
     margin: 0.8rem;
     width: 150px;
@@ -133,6 +133,8 @@ h2 {
     margin-bottom: 30%;
 }
 
+/* hyperlinks in contact box */
+
 .contact-links {
     font-size: 1.5rem;
     text-align: justify;
@@ -140,4 +142,66 @@ h2 {
     margin-right: 0;
     color: var(--quaternary)
 }
+
+@media screen and (max-width: 1094px) {
+    .info-container p, .contact-links {
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 1.5rem;
+        margin: 1.5rem;
+    }
+    a {
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .info-container {
+        width: 60%;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .info-container h1, h2 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+    .info-container p {
+        margin: 15px;
+    }
+    .info-container p, .contact-links {
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    header {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+    a {
+        font-size: 1rem;
+        margin-right: 0.5rem;
+    }
+    .info-container {
+        width: 70%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .info-container h1, h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+    .info-container p {
+        margin: 10px;
+    }
+    .info-container p, .contact-links {
+        font-size: 1rem; 
+    }
+}
+
 
