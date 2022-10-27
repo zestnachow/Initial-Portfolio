@@ -127,7 +127,7 @@ h2 {
     height: 150px;
 }
 
-#small-projects figcaption {
+.small-project-figures figcaption {
     justify-content: space-around;
     color: var(--text);
     margin-bottom: 30%;
