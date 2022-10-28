@@ -116,22 +116,28 @@ h2 {
     margin-bottom: 30px;
 }
 
-.small-project-figures {
-    display: flex;
+
+#small-image-container {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: auto;
+    max-width: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 
 .small-images {
-    justify-content: space-evenly;
-    margin: 0.8rem;
-    width: 150px;
-    height: 150px;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    height: 83px;
+    width: 83px;
+    margin-left: 50px;
+    margin-bottom: 9px;
 }
 
-.small-project-figures figcaption {
-    justify-content: space-around;
-    color: var(--text);
-    margin-bottom: 30%;
-}
 
 /* hyperlinks in contact box */
 
@@ -182,25 +188,32 @@ h2 {
         padding: 1rem;
         margin: 0.5rem;
     }
+
     a {
         font-size: 1rem;
         margin-right: 0.5rem;
     }
+
     .info-container {
         width: 70%;
         margin-top: 100px;
         margin-bottom: 100px;
     }
-    .info-container h1, h2 {
+
+    .info-container h1,
+    h2 {
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 1rem;
     }
+
     .info-container p {
         margin: 10px;
     }
-    .info-container p, .contact-links {
-        font-size: 1rem; 
+
+    .info-container p,
+    .contact-links {
+        font-size: 1rem;
     }
 }
 
